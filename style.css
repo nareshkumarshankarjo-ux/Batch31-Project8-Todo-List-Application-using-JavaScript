@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:500px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.input-section{
+    display:flex;
+    gap:10px;
+}
+
+.input-section input{
+    flex:1;
+    padding:10px;
+}
+
+.input-section button{
+    padding:10px 20px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.filters{
+    margin:20px 0;
+    text-align:center;
+}
+
+.filters button{
+    padding:8px 15px;
+    margin:5px;
+    cursor:pointer;
+}
+
+.search input{
+    width:100%;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#eee;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.completed{
+    text-decoration:line-through;
+    color:gray;
+}
+
+.actions button{
+    margin-left:5px;
+    padding:5px 10px;
+    cursor:pointer;
+}
+
+.edit{
+    background:orange;
+    color:white;
+    border:none;
+}
+
+.delete{
+    background:red;
+    color:white;
+    border:none;
+}
+
+.complete{
+    background:blue;
+    color:white;
+    border:none;
+}
