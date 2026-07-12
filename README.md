@@ -26,8 +26,6 @@ This is a frontend Todo List Application developed using HTML, CSS, and JavaScri
 
 ## Folder Structure
 
-todo-app/
-│
 ├── index.html
 ├── style.css
 ├── script.js
